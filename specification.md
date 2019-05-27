@@ -14,4 +14,4 @@ This page will allow the user to play a game of War against the computer. The us
 
 ## Page 3 - Blackjack
 
-This page will allow the user to play a game of Blackjack against the computer. The user will have 100 points to wager, and can choose how much they want to bet each round. When the user runs out of points, they will be given the option to reset back to 100. The user will be able to continue to play as many games as they want to without having to refresh or navigate away from the page. The cards will be represented by the pictures used in the card deck lab. Users will be able to navigate back to the main portal from this page.
+This page will allow the user to play a game of Blackjack against the computer. The user will have 100 points to wager, and can choose how much they want to bet each round. When the user runs out of points, they will be given the option to reset back to 100. The user will be able to continue to play as many games as they want to without having to refresh or navigate away from the page. The cards will be represented by the pictures used in the card deck lab. Users will be able to navigate back to the main portal from this page. 
