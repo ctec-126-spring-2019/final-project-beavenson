@@ -1,0 +1,114 @@
+#playarea{
+    background-color: #27893d;
+    height: 600px;
+    width: auto;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+#rules{
+    background-color: #27893d;
+    border-top: double 5px #d4b529;
+    border-bottom: double 5px #d4b529;
+    padding: 10px;
+    width: auto;
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-bottom: 0;
+}
+#startBtn{
+    position: relative;
+    left: 48%;
+    top: 300px
+}
+h1{
+    background-image: url('../img/wood-background.jpg');
+    background-repeat: repeat-x;
+    color: silver;
+    height: 75px;
+    width: auto;
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    font-size: 3em;
+}
+nav{
+    background-color: #d4b529;
+    width: auto;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+#flipBtn{
+    display: none;
+    position: absolute;
+    z-index: 99;
+    margin-left: 36px;
+    margin-top: 100px;
+}
+
+#compdeckarea, #playdeckarea{
+    display: none;
+    position: relative;
+    border: solid black 1px;
+    width: 111px;
+    height: 168px;
+    background-color: white;
+}
+
+#compdeckcount, #playdeckcount{
+    position: absolute;
+    z-index: 99;
+    text-align: center;
+    width: 110px;
+    height: 166px;
+    padding-top: 75px;
+}
+
+#compcard, #playcard{
+    display: none;
+    position: relative;
+    border: solid black 1px;
+    width: 111px;
+    height: 162px;
+    background-color: white;
+}
+
+#compdeckarea{
+    left: 350px;
+    top: 20px;
+}
+#playdeckarea{
+    left: 750px;
+    top: 220px
+}
+#compcard{
+    left: 550px;
+    bottom: 260px;
+}
+#playcard{
+    left: 550px;
+    bottom: 175px;
+}
+#warinfo{
+    position: absolute;
+    left: 550px;
+    top: 375px;
+    text-align: center;
+    width: 110px;
+}
+#winmessage{
+    position: relative;
+    left: 605px;
+    top: 225px;
+    width: 100px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+    <title>War - Ben's Cardroom</title>
+</head>
+<body>
+    <h1>Ben's Cardroom</h1>
+    <nav>
+        <a href='main.html'>Main Page</a>
+        <a href='war.html'>War</a>
+        <a href='blackjack.html'>Blackjack</a>
+    </nav>
+    <div id='playarea'>
+        <div id='compdeckarea'>
+            <div id='compdeckcount'></div>
+            <div id='compdeck'></div>
+        </div>
+       
+        <div id='playdeckarea'>
+            <div id='playdeckcount'></div>
+            <button id='flipBtn' onclick='flip()' disabled>Flip</button>
+            <div id='playdeck'></div>
+        </div>
+
+        <button id='startBtn' onclick='startGame()' disabled>Start Game</button>
+        
+        <div id='compcard'></div>
+        <div id='playcard'></div>
+
+        <div id='warinfo'>
+            <div id='warsplash'></div>
+            <div id='warzonecount'></div>
+        </div>
+
+        <div id='winmessage'></div>
+    </div>
+    <div id='rules'>
+        <h2>War - Rules</h2>
+        <p>The goal is to be the first player to win all 52 cards. The deck
+        is divided evenly, with each player receiving 26 cards, dealt
+        one at a time, face down. Anyone may deal first. Each player places
+        their stack of cards face down, in front of them. Each player turns up 
+        a card at the same time and the player with the higher card takes
+        both cards and puts them, face down, on the bottom of their stack.
+        If the cards are the same rank, it is War. Each player turns up one card
+        face down and one card face up. The player with the higher cards takes both
+        piles (six cards). If the turned-up cards are again the same rank, each
+        player places another card face down and turns another card face up.
+        The player with the higher card takes all 10 cards, and so on. The game
+        ends when one player has won all the cards.
+        </p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="js/war.js"></script>
+</body>
+</html>
