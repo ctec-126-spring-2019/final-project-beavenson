@@ -1,3 +1,6 @@
+body{
+    background-color: #27893d;
+}
 #playarea{
     background-color: #27893d;
     height: 600px;
@@ -102,7 +105,7 @@ a:visited{
 #warinfo{
     position: absolute;
     left: 550px;
-    top: 375px;
+    top: 420px;
     text-align: center;
     width: 110px;
 }
@@ -111,4 +114,15 @@ a:visited{
     left: 605px;
     top: 225px;
     width: 100px;
+}
+#buttonbox{
+    display: flex;
+    width: 300px;
+    border: double 5px #d4b529;
+    justify-content: space-around;
+    margin: auto;
+    padding: 10px;
+}
+h2{
+    text-align: center;
 }

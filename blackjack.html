@@ -10,12 +10,31 @@
 <body>
     <h1>Ben's Cardroom</h1>
     <nav>
-        <ul>
-            <li><a href='main.html'>Main Page</a></li>
-            <li><a href='war.html'>War</a></li>
-            <li><a href='blackjack.html'>Blackjack</a></li>
-        </ul>
+        <a href='main.html'>Main Page</a>
+        <a href='war.html'>War</a>
+        <a href='blackjack.html'>Blackjack</a>
     </nav>
-   <h2>Blackjack is still under construction :(</h2>>
+    <h2>Blackjack</h2>
+    <div id='playarea'>
+            <button id='startBtn' onclick='startGame()' disabled>Start Game</button>
+            <button id='hit' onclick='hitMe()' disabled>Hit Me!</button>
+            <button id='stay' onclick='stay()' disabled>Stay</button>
+            <button id='split' onclick='split()' disabled>Split</button>
+            <button id='double' onclick='doubleDown()' disabled>Double Down</button>
+            <button id='insurance' onclick='insurance()' disabled>Insurance</button>
+            <input id='betIn' type=number min=1 step=1 value=1>
+            <div id='status'></div>
+            <div id='credits'><p>Credits: 100</p></div>
+            <div id='bet'></div>
+            <div id='dealvalue'></div>
+            <div id='dealerhand'></div>
+            <div id='playvalue'></div>
+            <div id='playerhand'></div>
+    </div>
+    <div id='rules'>
+        <p></p>
+    </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+   <script src="js/blackjack.js"></script>
 </body>
 </html>
