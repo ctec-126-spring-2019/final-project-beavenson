@@ -20,7 +20,7 @@ body{
 }
 #startBtn{
     position: relative;
-    left: 48%;
+    left: 45%;
     top: 300px
 }
 h1{
@@ -124,5 +124,35 @@ a:visited{
     padding: 10px;
 }
 h2{
+    text-align: center;
+}
+
+#controls{
+    float: right;
+    position: relative;
+    margin-right: 10px;
+    height: 750px;
+}
+
+#betIn{
+    width: 50px;
+}
+#player{
+    display: flex;
+    justify-content: center;
+}
+#playerhand, #splithand, #dealerhand{
+    display: flex;
+    justify-content: center;
+}
+#playerhand img, #splithand img, #dealerhand img{
+    margin-right: 5px;
+    border: solid black 1px;
+}
+#playerhand, #splithand{
+    padding: 10px;
+}
+
+#status, #bet, #playvalue, #dealvalue{
     text-align: center;
 }
